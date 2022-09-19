@@ -6,7 +6,7 @@ const About = () => {
       {/* Hero Section */}
       <section id="hero">
         {/* Hero Container */}
-        <div className="container max-w-6xl mx-auto px-6 py-12 md:px-0">
+        <div className="container max-w-6xl mx-auto px-6 py-12">
           {/* Menu/Logo Container */}
           <Menu />
           {/* Mobile Menu */}

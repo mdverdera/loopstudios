@@ -29,7 +29,9 @@ const Menu = () => {
       <nav className="flex items-center justify-between font-bold text-white ">
         {/* Logo */}
         <Link href={"/"} passHref>
-          <img src="/img/logo.svg" alt="" />
+          <picture>
+            <img src="/img/logo.svg" alt="logo" />
+          </picture>
         </Link>
         {/* Menu */}
         <div className="hidden h-10 font-alata md:flex md:space-x-8">
