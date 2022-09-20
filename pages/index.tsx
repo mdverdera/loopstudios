@@ -153,7 +153,7 @@ export default function Home() {
               </div>
 
               {/* Menu Container */}
-              <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+              <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-0 ">
                 {/* Item 1 */}
                 <div className="h-10 group">
                   <Link href="#">
@@ -201,7 +201,7 @@ export default function Home() {
               {/* Icons Container */}
               <div className="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
                 {/* Icon 1 */}
-                <div className="h-8 group">
+                <div className="h-8 group cursor-pointer">
                   <Link href={"#"} passHref>
                     <picture>
                       <img
@@ -214,7 +214,7 @@ export default function Home() {
                 </div>
 
                 {/* Icon 2 */}
-                <div className="h-8 group">
+                <div className="h-8 group cursor-pointer">
                   <Link href={"#"} passHref>
                     <picture>
                       <img
@@ -227,7 +227,7 @@ export default function Home() {
                 </div>
 
                 {/* Icon 1 */}
-                <div className="h-8 group">
+                <div className="h-8 group cursor-pointer">
                   <Link href={"#"} passHref>
                     <picture>
                       <img
@@ -240,7 +240,7 @@ export default function Home() {
                 </div>
 
                 {/* Icon 1 */}
-                <div className="h-8 group">
+                <div className="h-8 group cursor-pointer">
                   <Link href={"#"} passHref>
                     <picture>
                       <img
